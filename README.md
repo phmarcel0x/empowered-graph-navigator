@@ -1,20 +1,50 @@
 # Agent-Based Navigation in Graphs
-* This project is an implementation of **agent-based navigation using graph-theoretic and information-theoretic measures**. 
-* Inspired by Marcus Clements' [research](https://uhra.herts.ac.uk/bitstream/handle/2299/22616/15007732%20CLEMENTS%20Marcus%20Final%20Version%20of%20MSc%20by%20Research%20Submission.pdf?sequence=1&isAllowed=y) on navigation in urban environments, the agent is designed to simulate decision-making in graph networks through two methods: **random walks** and **shortest pathfinding**.
-* The agent stores visited nodes and performs simulations to compare movement strategies. Additionally, the project implements core graph metrics—**degree centrality**, **closeness centrality**, and **betweenness centrality**—derived from graph theory and information theory.
 
-## Features:
-- **Agent Simulation**: Simulates navigation in a graph through random walks and shortest paths.
-- **Graph Metrics**: Calculates degree, closeness, and betweenness centrality to evaluate node importance.
-- **Memory**: Tracks visited nodes during navigation to compare strategies.
-- **Simulation Results**: Compares random walk and shortest path strategies over 1000 simulations.
+This project implements **agent-based navigation using graph-theoretic and information-theoretic measures**. Inspired by Marcus Clements' [research](https://uhra.herts.ac.uk/bitstream/handle/2299/22616/15007732%20CLEMENTS%20Marcus%20Final%20Version%20of%20MSc%20by%20Research%20Submission.pdf?sequence=1&isAllowed=y) on navigation in urban environments, the agent simulates decision-making in graph networks through two methods:
+
+- **Random Walks**
+- **Shortest Pathfinding**
+
+The agent tracks visited nodes and performs simulations to compare movement strategies. The project also implements core graph metrics:
+
+- **Degree Centrality**
+- **Closeness Centrality**
+- **Betweenness Centrality**
+
+## Features
+
+- **Agent Simulation**: Navigate graphs using random walks and shortest paths.
+- **Graph Metrics**: Calculate centrality measures to evaluate node importance.
+- **Memory Tracking**: Record visited nodes to compare strategies.
+- **Simulation Results**: Compare random walk and shortest path strategies over 1000 simulations.
 
 ## Research Paper
-The work is based on the research paper "[Empowerment and Relevant Goal Information as Alternatives to Graph-Theoretic Centrality for Navigational Decision Making](https://uhra.herts.ac.uk/bitstream/handle/2299/22616/15007732%20CLEMENTS%20Marcus%20Final%20Version%20of%20MSc%20by%20Research%20Submission.pdf?sequence=1&isAllowed=y)" by Marcus Clements, which **explores the correlation between graph centrality and human navigation using empowerment and goal information measures**.
+
+This work is based on:
+
+**[Empowerment and Relevant Goal Information as Alternatives to Graph-Theoretic Centrality for Navigational Decision Making](https://uhra.herts.ac.uk/bitstream/handle/2299/22616/15007732%20CLEMENTS%20Marcus%20Final%20Version%20of%20MSc%20by%20Research%20Submission.pdf?sequence=1&isAllowed=y)** by Marcus Clements.
+
+The paper explores the correlation between graph centrality and human navigation using empowerment and goal information measures.
+
+## Implemented Graph
+
+<p align="center">
+  <img src="./images/Empowerment_Graph.JPG" width="50%" alt="Empowerment Graph">
+  <br><b>Figure 1: The Implemented Graph</b>
+</p>
+
+## Centrality Measures
+
+<p align="center">
+  <img src="./images/Degree_Centrality.JPG" width="50%" alt="Degree Centrality">
+  <img src="./images/Closeness_Centrality.JPG" width="50%" alt="Closeness Centrality">
+  <img src="./images/Betweenness_Centrality.JPG" width="50%" alt="Betweenness Centrality">
+  <br><b>Figure 2: Centrality Measures</b>
+</p>
 
 ## Installation
 - Clone the repository.
 - Run main.py to start the simulations and calculate graph metrics.
 - Results are saved as CSV files for easy analysis.
 
-### Have a great day :) 
+#### Have a great day :) 
