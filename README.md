@@ -1,5 +1,7 @@
 # Agent-Based Navigation in Graphs
-This project is an implementation of **agent-based navigation using graph-theoretic and information-theoretic measures**. Inspired by Marcus Clements' research on navigation in urban environments, the agent is designed to simulate decision-making in graph networks through two methods: **random walks** and **shortest pathfinding**. The agent stores visited nodes and performs simulations to compare movement strategies. Additionally, the project implements core graph metrics—**degree centrality**, **closeness centrality**, and **betweenness centrality**—derived from graph theory and information theory.
+* This project is an implementation of **agent-based navigation using graph-theoretic and information-theoretic measures**. 
+* Inspired by Marcus Clements' [research](https://uhra.herts.ac.uk/bitstream/handle/2299/22616/15007732%20CLEMENTS%20Marcus%20Final%20Version%20of%20MSc%20by%20Research%20Submission.pdf?sequence=1&isAllowed=y) on navigation in urban environments, the agent is designed to simulate decision-making in graph networks through two methods: **random walks** and **shortest pathfinding**.
+* The agent stores visited nodes and performs simulations to compare movement strategies. Additionally, the project implements core graph metrics—**degree centrality**, **closeness centrality**, and **betweenness centrality**—derived from graph theory and information theory.
 
 ## Features:
 - **Agent Simulation**: Simulates navigation in a graph through random walks and shortest paths.
