@@ -42,9 +42,4 @@ The paper explores the correlation between graph centrality and human navigation
   <br><b>Figure 2: Centrality Measures</b>
 </p>
 
-## Installation
-- Clone the repository.
-- Run main.py to start the simulations and calculate graph metrics.
-- Results are saved as CSV files for easy analysis.
-
 #### Have a great day :) 
