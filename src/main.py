@@ -16,7 +16,7 @@ for node in g1.nodes:
     g1.display_bfs(g1.nodes[node])
 
 metrics_g1 = g.GraphMetrics(g1)
-metrics_g1.save_metrics("graph_metrics.csv")
+metrics_g1.save_metrics("report/graph_metrics.csv")
 metrics_g1.display()
 
 # Run simulations
@@ -43,7 +43,7 @@ for _ in range(simulations):
     results.append([start.get_name(), target.get_name(), random_walk_nodes_visited, shortest_path_nodes_visited])
 
 # Save results to a CSV file for analysis
-filename = "sim_results.csv"
+filename = "report/simulation_results.csv"
 with open(filename, 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Start Node", "Target Node", "Random Walk # of Visited Nodes", "Shortest Path # of Visited Nodes"])
