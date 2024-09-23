@@ -49,4 +49,4 @@ with open(filename, 'w', newline='') as file:
     writer.writerow(["Start Node", "Target Node", "Random Walk # of Visited Nodes", "Shortest Path # of Visited Nodes"])
     writer.writerows(results)
      
-print("\nSimulations completed and results saved to", filename)
+print("\nSimulations completed and results saved to:", filename)
